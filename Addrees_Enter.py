@@ -1,4 +1,4 @@
-# your full addrees entry
+# Enetr your home or office address
 
 a = input("Name:")
 b = input("Door no:")
