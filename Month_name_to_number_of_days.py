@@ -4,29 +4,33 @@ string should display the number of days in that month.
 Eg : input : January
      output : 31days '''
 
-month = str(input("Enter amonth Name: "))
-
-if (month==january):
+month = str(input("Enter a month Name: "))
+a,b,c,d,e,f,g = 'jan','march','may','july','aug','oct','dec'
+w,x,y,z = 'april','june','sep','nov'
+A = 'feb'
+if (month==a):
     print(month," is 31days")   
-elif(month==february):
+elif(month==A):
     print(month," is a 28 or 29days")
-elif(month==march):
+elif(month==b):
     print(month," is a 31days")
-elif(month==april):
+elif(month==w):
     print(month," is a 30days")
-elif(month==may):
+elif(month==c):
     print(month," is a 31days")
-elif(month==june):
+elif(month==x):
     print(month," is a 30days")
-elif(month==july):
+elif(month==d):
     print(month," is a 31days")
-elif(month==august):
+elif(month==e):
     print(month," is a 31days")
-elif(month==september):
+elif(month==y):
     print(month," is a 30days")
-elif(month==october):
+elif(month==f):
     print(month," is a 31days")
-elif(month==november):
+elif(month==z):
+    print(month," is a 30days")
+elif(month==g):
     print(month," is a 31days")
 else:
-    print(month," is a 31days")
+    print("Error")
