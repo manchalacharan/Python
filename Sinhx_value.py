@@ -9,6 +9,6 @@ for k in range(1,n):
     fact =1
     for j in range(1,k+1):
         fact=fact*j
-    sinh_x = x + x**(2*k+1)/(2*k+1)*(fact)
+    sinh_x = (x**(2*k+1))/(2*k+1)*(fact)
 
 print(sinh_x)
