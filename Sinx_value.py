@@ -10,6 +10,6 @@ for k in range(1,n):
     for j in range(1,k
                    +1):
         fact=fact*j
-    sin_x = sin_x + (-1**k)*x**(2*k+1)/(2*k+1)*(fact)
+    sin_x = (-1**k)*x**(2*k+1)/(2*k+1)*(fact)
 
-print(sin_x+1)
+print(sin_x)
